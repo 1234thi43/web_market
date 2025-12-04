@@ -1,0 +1,19 @@
+.button {
+	padding: 10px 15px;
+	border-radius: 6px;
+	font-size: 15px;
+	font-weight: 500;
+	cursor: pointer;
+	border: 1px solid #e0cfa5;
+	background: #ffe0b3;
+	transition: background 0.2s ease;
+}
+
+.button:hover {
+	background: #ffd699;
+}
+
+.button:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}

@@ -1,0 +1,15 @@
+.errorText {
+	color: #ff4d4d;
+	font-size: 14px;
+	margin-top: 4px;
+}
+
+.loginSuggestion {
+	margin-top: 10px;
+}
+
+.loginLink {
+	color: #b58900;
+	text-decoration: underline;
+	cursor: pointer;
+}

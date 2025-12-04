@@ -1,0 +1,46 @@
+.textAreaWrapper {
+	width: 100%;
+}
+
+.textArea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 15px;
+	resize: vertical;
+	min-height: 100px;
+	width: 100%;
+	max-width: 100%;
+	transition:
+		border-color 0.2s,
+		box-shadow 0.2s,
+		background 0.2s;
+}
+
+.textArea:focus {
+	border-color: #e0cfa5;
+	box-shadow: 0 0 0 2px rgba(224, 207, 165, 0.3);
+	outline: none;
+	background-color: #fffef9;
+}
+
+.textAreaError {
+	border-color: #ff6b6b;
+	background-color: #fff0f0;
+}
+
+.textAreaError:focus {
+	border-color: #ff6b6b;
+	box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.3);
+}
+
+.counter {
+	font-size: 12px;
+	text-align: right;
+	margin-top: 4px;
+	color: #777;
+}
+
+.counterExceed {
+	color: #ff6b6b;
+}

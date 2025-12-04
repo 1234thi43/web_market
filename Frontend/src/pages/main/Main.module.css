@@ -1,0 +1,125 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	gap: 20px;
+}
+
+.searchBar {
+	padding: 10px 15px;
+	font-size: 16px;
+	border: 1px solid #e0cfa5;
+	border-radius: 6px;
+	width: 100%;
+	max-width: 1110px;
+}
+
+.sortBar {
+	padding: 10px;
+	background-color: #faf7f0;
+	border: 1px solid #e0cfa5;
+	border-radius: 6px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.content {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.categories {
+	flex: 1;
+	min-width: 150px;
+	border: 1px solid #e0cfa5;
+	border-radius: 6px;
+	padding: 20px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.categoryLabel {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	font-weight: 400;
+}
+
+.products {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.productCard {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	border: 1px solid #e0cfa5;
+	border-radius: 6px;
+	background-color: #fff8f0;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.productCard:hover {
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.productInfo {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.productImage {
+	width: 80px;
+	height: 80px;
+	background-color: #f2e7d8;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #777;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.productText {
+	color: #444;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	margin-top: 25px;
+	flex-wrap: wrap;
+}
+
+.pageButton {
+	min-width: 40px;
+	padding: 6px 10px;
+	border: 1px solid #e0cfa5;
+	background-color: #fff8f0;
+	color: #444;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.pageButtonActive {
+	background: #ffb867 !important;
+	border-color: #e39a45 !important;
+	color: #321e00;
+	font-weight: 700;
+	transition: 0.2s;
+	box-shadow: 0 0 4px rgba(255, 152, 0, 0.4);
+	transform: translateY(-2px);
+}
